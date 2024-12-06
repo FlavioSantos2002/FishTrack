@@ -1,15 +1,59 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Gradle Wrapper
+.gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ/Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.ipr
+*.iws
+
+# Log Files
+*.log
+
+# Android Specific
+/app/build/
+**/debug/
+**/release/
+
+# Local configuration file (SDK path, etc.)
 local.properties
+
+# Files for the Dalvik VM
+*.dex
+
+# Compiled Java classes
+*.class
+
+# Generated binary files
+bin/
+
+# Generated JSON files (local)
+captures/
+output.json
+
+# Misc
+.DS_Store
+*.orig
+*.keystore
+*.swp
+
+# Ignore crashlytics and fabric folders
+fabric/
+crashlytics/
+
+# Others
+*.tmp
+*.bak
+*.swp
+*.lock
+*.jar
+*.war
+*.ear
+
